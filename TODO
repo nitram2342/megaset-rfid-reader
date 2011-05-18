@@ -1,0 +1,7 @@
+- festwiren auf uid scheint nicht zu funktionieren, man kann karten beim
+  auslesen einfach austasuchen, ohne dass dieses bemerkt wird
+- schreiben ueber gespeerte bloecke zeigt keinen fehler (112-byte karte)
+- gelockte bloecke werden nicht als solche angezeigt (112-byte karte)
+- timeout-funktionalitaet?
+
+

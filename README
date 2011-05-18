@@ -1,0 +1,36 @@
+RFID::Reader version 0.01
+========================
+
+this perl module is an interface to the RFID 13.56 MHz
+ISO15693-Reader shipped by Megaset Systemtechnik.
+
+directory 'tools/' contains a simple command line script,
+that uses RFID::Reader functionality to communicate with
+ISO15693 transponders via controller.
+
+SUPPORTED PLATTFORMS
+
+- Mac OS X (tested)
+- FreeBSD (should work)
+- Linux (should work)
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires Device::SerialPort.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2004 Martin Schobert <martin@weltregierung.de>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+

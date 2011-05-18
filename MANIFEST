@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+Reader.pm
+Reader.xs
+README
+t/1.t
+fallback/const-c.inc
+fallback/const-xs.inc
